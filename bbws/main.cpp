@@ -1,14 +1,12 @@
-#include "MultiClientChat.h"
-
-// using namespace std;
+#include "WebServer.h"
 
 void main()
 {
-	MultiClientChat mcc("0.0.0.0", 54000);
-	if (mcc.init() != 0)
+	WebServer webServer("0.0.0.0", 8080);
+	if (webServer.init() != 0)
 		return;
 
-	mcc.run();
+	webServer.run();
 
 	system("pause");
 }

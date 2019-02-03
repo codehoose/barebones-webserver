@@ -114,10 +114,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultiClientChat.cpp" />
     <ClCompile Include="TcpListener.cpp" />
+    <ClCompile Include="WebServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MultiClientChat.h" />
     <ClInclude Include="TcpListener.h" />
+    <ClInclude Include="WebServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
